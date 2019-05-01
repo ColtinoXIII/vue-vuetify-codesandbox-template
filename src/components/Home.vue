@@ -1,11 +1,14 @@
 <template>
+<v-content class="black">
   <v-container>
+    <v-img class="icon" height="250" width="250" src="assets/Icon.jpg"></v-img>
     <v-card>
-      <v-carousel>
-        <v-carousel-item v-for="(image,i) in images" :key="i" :src="image"></v-carousel-item>
+      <v-carousel height="600">
+        <v-carousel-item  v-for="(image,i) in images" :key="i" :src="image"></v-carousel-item>
       </v-carousel>
     </v-card>
   </v-container>
+</v-content>
 </template>
 
 
@@ -14,14 +17,23 @@ export default {
   name: "Home",
   data: () => ({
     images: [
-      "https://pbs.twimg.com/media/Dfx5xUjW0AAXuWV.jpg",
-      "https://pbs.twimg.com/media/DKBqtCjWkAUatba.jpg",
-      "https://pbs.twimg.com/media/DLPYVWoVoAAlIKb.jpg",
-      "https://pbs.twimg.com/media/DyA3rlqVAAArzzJ.jpg"
+      "/assets/Joe_Panda.jpg",
+      "/assets/Aaron_Panda.jpg",
+      "/assets/Nathan_Panda.jpg",
+      "/assets/Shawn_Panda.jpg",
+      "/assets/Unknown_Panda.jpg"
     ]
   })
 };
 </script>
 
-<style>
+<style scoped>
+.icon {
+  position: relative;
+  
+  left: 450px;
+}
+.background {
+  color: black;
+}
 </style>
