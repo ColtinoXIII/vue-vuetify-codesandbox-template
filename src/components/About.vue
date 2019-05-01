@@ -12,7 +12,7 @@
 <p>Panda Prestige started in 2017 during Michael Kahoun's freshman year at Mount Vernon Nazarene University.
 </p>
 <p>After cutting multiple students' hair, he decided to start a part-time business cutting hair on campus.</p>
-<p>For only $10 you can't beat the quality that you get from Panda Prestige Barber</p>
+<p>For only $10 you can't beat the quality that you get from Panda Prestige Barber.</p>
 <p>Schedule your next appointment at Panda Prestige today!</p>
 <v-btn class="appointment" href="https://www.instagram.com/pandaprestigebarber/">Click here to schedule your appointment</v-btn>
 </div>
