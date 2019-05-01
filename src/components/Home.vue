@@ -8,6 +8,7 @@
       </v-carousel>
     </v-card>
   </v-container>
+  <v-btn class="appointment" href="https://www.instagram.com/pandaprestigebarber/">Click here to schedule your appointment</v-btn>
 </v-content>
 </template>
 
@@ -30,10 +31,15 @@ export default {
 <style scoped>
 .icon {
   position: relative;
-  
+  bottom: 15px;
   left: 450px;
 }
 .background {
   color: black;
+}
+.appointment {
+  
+  position: relative;
+  left: 575px;
 }
 </style>
