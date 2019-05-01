@@ -3,7 +3,7 @@
   <v-container>
     <v-img class="icon" height="200" width="200" src="assets/Icon.jpg"></v-img>
     <v-card>
-      <v-carousel height="600">
+      <v-carousel height="650">
         <v-carousel-item  v-for="(image,i) in images" :key="i" :src="image"></v-carousel-item>
       </v-carousel>
     </v-card>
