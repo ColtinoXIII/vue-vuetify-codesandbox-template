@@ -1,5 +1,8 @@
 <template>
   <v-app>
+    <head>
+      <title>Panda Prestige</title>
+    </head>
     <v-toolbar class="white">
       <v-toolbar-title>Panda Prestige</v-toolbar-title>
       <v-spacer></v-spacer>
