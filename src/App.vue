@@ -8,23 +8,6 @@
         <v-btn to="/about" flat>About</v-btn>
         <v-btn to="/schedule" flat>Schedule</v-btn>
       </v-toolbar-items>
-      <v-menu class="hidden-md-and-up">
-        <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
-        <v-list>
-          <v-list-tile to="/">
-            <v-list-tile-action>
-              <v-icon>directions_run</v-icon>
-            </v-list-tile-action>
-            <v-list-tile-content>Home</v-list-tile-content>
-          </v-list-tile>
-          <v-list-tile to="/about">
-            <v-list-tile-action>
-              <v-icon>how_to_reg</v-icon>
-            </v-list-tile-action>
-            <v-list-tile-content>About</v-list-tile-content>
-          </v-list-tile>
-        </v-list>
-      </v-menu>
     </v-toolbar>
     <v-content>
       <router-view></router-view>

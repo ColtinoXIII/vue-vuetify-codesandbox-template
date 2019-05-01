@@ -1,7 +1,7 @@
 <template>
 <v-content class="black">
   <v-container>
-    <v-img class="icon" height="250" width="250" src="assets/Icon.jpg"></v-img>
+    <v-img class="icon" height="200" width="200" src="assets/Icon.jpg"></v-img>
     <v-card>
       <v-carousel height="600">
         <v-carousel-item  v-for="(image,i) in images" :key="i" :src="image"></v-carousel-item>
